@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link rel="icon" href="./assets/pfp.gif" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    @media (max-width: 600px) {
+      .ills {
+        flex-direction: column;
+      }
+    }
+
+    .ills {
+      height: 90vh;
+      width: auto;
+      background-color: #90e0ef;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+    }
+    #I {
+      text-align: center;
+      font-size: 10vh;
+      font-family: "Dancing Script", cursive;
+      color: #03045e;
+      flex-basis: auto;
+      margin-top: 50%;
+    }
+
+    .hed {
+      font-size: 10vh;
+      margin-top: 30px;
+      font-family: "Dancing Script", cursive;
+      color: #03045e;
+      flex-basis: auto;
+    }
+
+    .intro {
+      flex-flow: column;
+      flex-basis: auto;
+      align-items: center;
+      align-content: center;
+      justify-content: space-between;
+    }
+    .figure {
+      align-self: center;
+      flex-basis: auto;
+    }
+
+    #intr {
+      text-align: center;
+      font-size: xx-large;
+      padding: 15px;
+      margin: 15px;
+      font-family: "Dancing Script", cursive;
+      color: #0077b6;
+    }
+    .mid-container {
+      height: 800px;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+    .pfp > * {
+      margin-top: 150px;
+      border-radius: 100%;
+    }
+    .desc {
+      margin: 20px;
+      padding-top: 10px;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+    }
+    .bot-container {
+      height: 500px;
+      margin-top: 200px;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+    .contact {
+      text-align: center;
+      padding: 30px;
+      font-family: "Montserrat", sans-serif;
+    }
+  </style>
+  <body>
+    <section id="illustration">
+      <div class="ills">
+        <div class="intro">
+          <h1 id="I">Hi, Im Sarthak.</h1>
+          <p id="intr">I am a Programmer</p>
+        </div>
+        <div class="figure">
+          <img
+            src="./assets/3d-casual-life-young-man-with-laptop-on-chair.png"
+            height="500px"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="desc">
+      <div class="mid-container">
+        <div class="pfp">
+          <img src="./assets/pfp.gif" height="200px" width="200px" />
+        </div>
+        <h2 class="desc">
+          I am a student who is currently learning web devlopment and
+          programming.
+        </h2>
+        <h1 class="hed">My Skills</h1>
+        <div
+          class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center"
+        >
+          <div class="list-group">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./assets/python.png"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Python</h6>
+                  <p class="mb-0 opacity-75">
+                    Fluency in Python programming language.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./assets/c-.png"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">C++</h6>
+                  <p class="mb-0 opacity-75">
+                    Object Oriented concepts & Data Structures in C++.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action d-flex gap-3 py-3"
+              aria-current="true"
+            >
+              <img
+                src="./assets/browser.png"
+                alt="twbs"
+                width="32"
+                height="32"
+                class="rounded-circle flex-shrink-0"
+              />
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">HTML & CSS</h6>
+                  <p class="mb-0 opacity-75">
+                    Web design & devlopment using HTML & CSS.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="bot-container">
+        <h2 class="hed">Contact Me</h2>
+        <p class="contact">
+          If you'd like to get in touch with me, Click the button below
+        </p>
+        <a href="mailto:sinhasarthak56@gmail.com">
+          <span
+            class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill"
+          >
+            <img
+              class="rounded-circle me-1"
+              width="24"
+              height="24"
+              src="./assets/pfp.gif"
+              alt=""
+            />Sarthak
+          </span></a
+        >
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            >
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Sarthak</span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+</html>
